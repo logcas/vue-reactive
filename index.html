@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vueact</title>
+</head>
+<body>
+  <div id="app">
+    <p>Test v-model</p>dsadsada
+    <input type="text" v-model="test">
+    <p>v-model: test = <span v-text="test"></span></p>
+    <button v-on:click="onClick">点一下同时改变</button>
+    <p>测试计算属性：<span v-text="testcp"></span></p>
+  </div>
+</body>
+</html>
